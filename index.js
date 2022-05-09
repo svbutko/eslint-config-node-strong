@@ -5,6 +5,22 @@ module.exports = {
         "jest",
     ],
     rules: {
+        //node
+        "node/no-callback-literal": "error",
+        "node/no-exports-assign": "error",
+        "node/no-extraneous-import": "error",
+        "node/no-extraneous-require": "error",
+        "node/no-missing-import": "error",
+        "node/no-missing-require": "error",
+        "node/no-new-require:": "error",
+        "node/no-path-concat": "error",
+        "node/no-process-exit": "error",
+        "node/no-unpublished-bin": "error",
+        "node/no-unpublished-import": "error",
+        "node/no-unpublished-require": "error",
+        "node/shebang": "error",
+        "node/no-deprecated-api": "warn",
+
         //jest
         "jest/no-disabled-tests": "error",
         "jest/no-focused-tests": "error",
