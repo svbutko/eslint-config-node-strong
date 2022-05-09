@@ -1,0 +1,55 @@
+{
+  "name": "eslint-config-node-strong",
+  "version": "1.0.0",
+  "description": "ESLint strong config for NodeJS development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svbutko/eslint-config-node-strong.git"
+  },
+  "author": "Sergei Butko (https://twitter.com/@svbutko)",
+  "contributors": [
+    {
+      "name": "Sergei Butko",
+      "url": "https://twitter.com/@svbutko"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svbutko/eslint-config-node-strong/issues"
+  },
+  "homepage": "https://github.com/svbutko/eslint-config-node-strong#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "typescript",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "style",
+    "styleguide",
+    "verify",
+    "node",
+    "nodejs"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "eslint": "^8.15.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.5"
+  },
+  "engines": {
+    "node": "^12.13.0 || ^14.15.0 || >=16.0.0"
+  }
+}
