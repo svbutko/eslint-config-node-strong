@@ -6,8 +6,28 @@ module.exports = {
         "security",
         "node",
         "anti-trojan-source",
+        "mongodb",
     ],
     rules: {
+        //mongodb
+        "mongodb/check-insert-calls": "error",
+        "mongodb/check-query-calls": "error",
+        "mongodb/check-update-calls": "error",
+        "mongodb/check-remove-calls": "error",
+        "mongodb/check-deprecated-calls": "error",
+        "mongodb/no_replace": "error",
+        "mongodb/check-rename-updates": "error",
+        "mongodb/check-unset-updates": "error",
+        "mongodb/check-current-date-updates": "error",
+        "mongodb/check-numeric-updates": "error",
+        "mongodb/check-minmax-updates": "error",
+        "mongodb/check-set-updates": "error",
+        "mongodb/check-push-updates": "error",
+        "mongodb/check-pull-updates": "error",
+        "mongodb/check-pop-updates": "error",
+        "mongodb/check-addtoset-updates": "error",
+        "mongodb/check-deprecated-updates": "error",
+
         //anti-trojan-source
         "anti-trojan-source/no-bidi": "error",
 
