@@ -44,7 +44,15 @@ Add `"node-strong"` to the "extends" array in your `.eslintrc.*` file. Make sure
 - [@typescript-eslint/eslint-plugin]
 - [eslint-plugin-import]
 - [eslint-plugin-jest]
+- [eslint-plugin-anti-trojan-source]
+- [eslint-plugin-mongodb]
+- [eslint-plugin-node]
+- [eslint-plugin-security]
 
 [@typescript-eslint/eslint-plugin]: https://github.com/typescript-eslint/typescript-eslint
 [eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
 [eslint-plugin-jest]: https://github.com/jest-community/eslint-plugin-jest
+[eslint-plugin-anti-trojan-source]: https://github.com/lirantal/eslint-plugin-anti-trojan-source
+[eslint-plugin-mongodb]: https://github.com/SebastienElet/eslint-plugin-mongodb
+[eslint-plugin-node]: https://github.com/mysticatea/eslint-plugin-node
+[eslint-plugin-security]: https://github.com/nodesecurity/eslint-plugin-security
