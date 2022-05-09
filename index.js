@@ -5,8 +5,12 @@ module.exports = {
         "jest",
         "security",
         "node",
+        "anti-trojan-source",
     ],
     rules: {
+        //anti-trojan-source
+        "anti-trojan-source/no-bidi": "error",
+
         //security
         "security/detect-buffer-noassert": "error",
         "security/detect-child-process": "error",

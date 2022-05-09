@@ -17,13 +17,13 @@ ESLint strong (strict) config for NodeJS development
 #### yarn
 
 ```sh
-yarn add -D eslint eslint-config-node-strong eslint-plugin-node eslint-plugin-security @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-jest
+yarn add -D eslint eslint-config-node-strong eslint-plugin-anti-trojan-source eslint-plugin-node eslint-plugin-security @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-jest
 ```
 
 #### npm
 
 ```sh
-npm install --save-dev eslint eslint-config-node-strong eslint-plugin-node eslint-plugin-security @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-jest
+npm install --save-dev eslint eslint-config-node-strong eslint-plugin-anti-trojan-source eslint-plugin-node eslint-plugin-security @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-jest
 ```
 
 ### Usage
